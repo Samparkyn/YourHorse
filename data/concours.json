@@ -1,0 +1,36 @@
+[{
+  "competitions": [
+    {
+      "Location": "Severy",
+      "startDate": "10.06.2016",
+      "endDate": "12.06.2016",
+      "Type": "Outdoor",
+      "Disipline": "Jumping",
+      "imageUrl": "/images/severy.jpg",
+    },
+    {
+      "Location": "Verbier",
+      "startDate": "10.08.2016",
+      "endDate": "16.08.2016",
+      "Type": "Outdoor",
+      "Disipline": "Jumping",
+      "imageUrl": "/images/verbier.jpg"
+    },
+    {
+      "Location": "Sion",
+      "startDate": "01.09.2016",
+      "endDate": "06.09.2016",
+      "Type": "Outdoor",
+      "Disipline": "Jumping",
+      "imageUrl": "/images/sion.jpg"
+    },
+    {
+      "Location": "Apples",
+      "startDate": "10.09.2016",
+      "endDate": "13.09.2016",
+      "Type": "Outdoor",
+      "Disipline": "Jumping",
+      "imageUrl": "/images/Apples.jpg",
+    }
+  ]
+  }]

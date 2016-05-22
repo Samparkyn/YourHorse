@@ -1,0 +1,34 @@
+{
+  "name": "react-materialize-docs",
+  "version": "0.12.0",
+  "description": "React Materialize docs site",
+  "main": "index.js",
+  "scripts": {
+    "start": "NODE_ENV=production node server.js",
+    "build": "node build.js && webpack --progress --colors",
+    "watch": "node build.js && webpack --progress --colors --watch",
+    "clean": "rm *.html assets/bundle.js"
+  },
+  "repository": "https://github.com/react-materialize/react-materialize.git",
+  "author": "Isaiah Peng <issaria@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel": "^5.8.12",
+    "babel-core": "^5.8.12",
+    "babel-loader": "^5.3.2",
+    "brfs": "^1.4.0",
+    "envify": "^3.2.0",
+    "express": "^4.10.4",
+    "node-jsx": "^0.12.4",
+    "react": "^0.13.3",
+    "react-router": "^0.13.3",
+    "react-tools": "^0.13.3",
+    "transform-loader": "^0.2.2",
+    "webpack": "^1.10.5"
+  },
+  "dependencies": {
+    "jquery": "^2.1.4",
+    "materialize-css": "^0.96.1",
+    "prismjs": "0.0.1"
+  }
+}
